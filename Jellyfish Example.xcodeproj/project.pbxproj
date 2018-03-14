@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741C29E22056DADC00050882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C29E12056DADC00050882 /* AppDelegate.swift */; };
+		741C29E42056DADC00050882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C29E32056DADC00050882 /* ViewController.swift */; };
+		741C29E72056DADC00050882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741C29E52056DADC00050882 /* Main.storyboard */; };
+		741C29EA2056DADC00050882 /* Jellyfish_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 741C29E82056DADC00050882 /* Jellyfish_Example.xcdatamodeld */; };
+		741C29EC2056DADC00050882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741C29EB2056DADC00050882 /* Assets.xcassets */; };
+		741C29EF2056DADC00050882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741C29ED2056DADC00050882 /* LaunchScreen.storyboard */; };
+		749204D92058307800C0D06B /* testing_normal_blueprint.apib in Resources */ = {isa = PBXBuildFile; fileRef = 749204D82058307800C0D06B /* testing_normal_blueprint.apib */; };
+		749204DB2058308C00C0D06B /* WebRequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749204DA2058308C00C0D06B /* WebRequestHelper.swift */; };
+		8D5E51C00B139E9925E705F3 /* Pods_Jellyfish_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 101F71FDCCF78A1EBC1A9097 /* Pods_Jellyfish_Example.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01594EAA3784A04409E7F71C /* Pods-Jellyfish Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jellyfish Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jellyfish Example/Pods-Jellyfish Example.release.xcconfig"; sourceTree = "<group>"; };
+		101F71FDCCF78A1EBC1A9097 /* Pods_Jellyfish_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jellyfish_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		741C29DE2056DADC00050882 /* Jellyfish Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jellyfish Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		741C29E12056DADC00050882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		741C29E32056DADC00050882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		741C29E62056DADC00050882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		741C29E92056DADC00050882 /* Jellyfish_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Jellyfish_Example.xcdatamodel; sourceTree = "<group>"; };
+		741C29EB2056DADC00050882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		741C29EE2056DADC00050882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		741C29F02056DADC00050882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749204D82058307800C0D06B /* testing_normal_blueprint.apib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testing_normal_blueprint.apib; sourceTree = "<group>"; };
+		749204DA2058308C00C0D06B /* WebRequestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebRequestHelper.swift; sourceTree = "<group>"; };
+		D15EF2CE474AE20E9248DABE /* Pods-Jellyfish Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jellyfish Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jellyfish Example/Pods-Jellyfish Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		741C29DB2056DADC00050882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5E51C00B139E9925E705F3 /* Pods_Jellyfish_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B22DED645D019AB512A6259 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D15EF2CE474AE20E9248DABE /* Pods-Jellyfish Example.debug.xcconfig */,
+				01594EAA3784A04409E7F71C /* Pods-Jellyfish Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3932E0647A21BE2FA91870AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				101F71FDCCF78A1EBC1A9097 /* Pods_Jellyfish_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		741C29D52056DADC00050882 = {
+			isa = PBXGroup;
+			children = (
+				741C29E02056DADC00050882 /* Jellyfish Example */,
+				741C29DF2056DADC00050882 /* Products */,
+				0B22DED645D019AB512A6259 /* Pods */,
+				3932E0647A21BE2FA91870AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		741C29DF2056DADC00050882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				741C29DE2056DADC00050882 /* Jellyfish Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		741C29E02056DADC00050882 /* Jellyfish Example */ = {
+			isa = PBXGroup;
+			children = (
+				749204DA2058308C00C0D06B /* WebRequestHelper.swift */,
+				749204D82058307800C0D06B /* testing_normal_blueprint.apib */,
+				741C29E12056DADC00050882 /* AppDelegate.swift */,
+				741C29E32056DADC00050882 /* ViewController.swift */,
+				741C29E52056DADC00050882 /* Main.storyboard */,
+				741C29EB2056DADC00050882 /* Assets.xcassets */,
+				741C29ED2056DADC00050882 /* LaunchScreen.storyboard */,
+				741C29F02056DADC00050882 /* Info.plist */,
+				741C29E82056DADC00050882 /* Jellyfish_Example.xcdatamodeld */,
+			);
+			path = "Jellyfish Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		741C29DD2056DADC00050882 /* Jellyfish Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 741C29F32056DADC00050882 /* Build configuration list for PBXNativeTarget "Jellyfish Example" */;
+			buildPhases = (
+				6D4F867E74918963A844F5F2 /* [CP] Check Pods Manifest.lock */,
+				741C29DA2056DADC00050882 /* Sources */,
+				741C29DB2056DADC00050882 /* Frameworks */,
+				741C29DC2056DADC00050882 /* Resources */,
+				21F5ED2E955C6FB60B12612A /* [CP] Embed Pods Frameworks */,
+				E5FBB1915CA09D4F34CAD2B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jellyfish Example";
+			productName = "Jellyfish Example";
+			productReference = 741C29DE2056DADC00050882 /* Jellyfish Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		741C29D62056DADC00050882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Yeung Yiu Hung";
+				TargetAttributes = {
+					741C29DD2056DADC00050882 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 741C29D92056DADC00050882 /* Build configuration list for PBXProject "Jellyfish Example" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 741C29D52056DADC00050882;
+			productRefGroup = 741C29DF2056DADC00050882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				741C29DD2056DADC00050882 /* Jellyfish Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		741C29DC2056DADC00050882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741C29EF2056DADC00050882 /* LaunchScreen.storyboard in Resources */,
+				749204D92058307800C0D06B /* testing_normal_blueprint.apib in Resources */,
+				741C29EC2056DADC00050882 /* Assets.xcassets in Resources */,
+				741C29E72056DADC00050882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21F5ED2E955C6FB60B12612A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Jellyfish Example/Pods-Jellyfish Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Jellyfish/Jellyfish.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Jellyfish.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jellyfish Example/Pods-Jellyfish Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D4F867E74918963A844F5F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jellyfish Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FBB1915CA09D4F34CAD2B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jellyfish Example/Pods-Jellyfish Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		741C29DA2056DADC00050882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				749204DB2058308C00C0D06B /* WebRequestHelper.swift in Sources */,
+				741C29E42056DADC00050882 /* ViewController.swift in Sources */,
+				741C29E22056DADC00050882 /* AppDelegate.swift in Sources */,
+				741C29EA2056DADC00050882 /* Jellyfish_Example.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		741C29E52056DADC00050882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741C29E62056DADC00050882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		741C29ED2056DADC00050882 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				741C29EE2056DADC00050882 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		741C29F12056DADC00050882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		741C29F22056DADC00050882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		741C29F42056DADC00050882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15EF2CE474AE20E9248DABE /* Pods-Jellyfish Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWTFSD7VTD;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Jellyfish Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darkcl.Jellyfish-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		741C29F52056DADC00050882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01594EAA3784A04409E7F71C /* Pods-Jellyfish Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EWTFSD7VTD;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Jellyfish Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darkcl.Jellyfish-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		741C29D92056DADC00050882 /* Build configuration list for PBXProject "Jellyfish Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741C29F12056DADC00050882 /* Debug */,
+				741C29F22056DADC00050882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741C29F32056DADC00050882 /* Build configuration list for PBXNativeTarget "Jellyfish Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				741C29F42056DADC00050882 /* Debug */,
+				741C29F52056DADC00050882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		741C29E82056DADC00050882 /* Jellyfish_Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				741C29E92056DADC00050882 /* Jellyfish_Example.xcdatamodel */,
+			);
+			currentVersion = 741C29E92056DADC00050882 /* Jellyfish_Example.xcdatamodel */;
+			path = Jellyfish_Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 741C29D62056DADC00050882 /* Project object */;
+}

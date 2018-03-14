@@ -1,0 +1,6 @@
+framework module Jellyfish {
+  umbrella header "Jellyfish-umbrella.h"
+
+  export *
+  module * { export * }
+}

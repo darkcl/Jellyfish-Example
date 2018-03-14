@@ -1,0 +1,6 @@
+framework module Pods_Jellyfish_Example {
+  umbrella header "Pods-Jellyfish Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

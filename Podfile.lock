@@ -1,0 +1,19 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Jellyfish (0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Jellyfish (from `../Jellyfish`)
+
+EXTERNAL SOURCES:
+  Jellyfish:
+    :path: ../Jellyfish
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Jellyfish: 95663ebb3ce8e850d724cbc6d5c616c11fc7921e
+
+PODFILE CHECKSUM: 512d4be27c200dd85a6765ddeb7a8c272cc85447
+
+COCOAPODS: 1.4.0
